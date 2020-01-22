@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;/*cambiar luego*/
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.estilosFooter {
+    background: rosybrown;
+}
+.estilosFotoPrincipal{
+    margin-top:100px;
+}
+.estilosNav {
+    background: rosybrown;
+}
+.letraLogo{
+    font-family:'Merienda';
+    font-size:30px;
+    font-weight:700;
+}
+.estilosLogoPeque {
+    font-family: 'Merienda';
+    font-size: 10px;
+    font-weight: 700;
+}
