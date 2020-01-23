@@ -1,7 +1,7 @@
 body {
     text-align: center;
     color: #000f08;
-    font-family: 'Open Sans', sans-serif;/*cambiar luego*/
+    font-family: 'Open Sans';
 }
 
 body * {
@@ -11,9 +11,10 @@ body * {
 }
 .estilosFooter {
     background: rosybrown;
+    padding: 20px;
 }
 .estilosFotoPrincipal{
-    margin-top:100px;
+    margin-top:70px;
 }
 .estilosNav {
     background: rosybrown;
@@ -25,6 +26,30 @@ body * {
 }
 .estilosLogoPeque {
     font-family: 'Merienda';
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
+}
+.boldt1 {
+    font-family: 'Merienda';
+    font-size: 25px;
+    font-weight: 700;
+    color: #373A3C;
+}
+.estilosSeccionSobreMi{
+    margin-top: 25px;
+    margin-bottom:60px;
+}
+.estilosParrafos {
+    padding: 3% 20% 0 20%;
+}
+h2 {
+    font-family: 'Merienda';
+    font-size: 33px;
+    font-weight: 700;
+    color: #373A3C;
+    margin-bottom: 25px;
+}
+.estilosExperiencia {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
