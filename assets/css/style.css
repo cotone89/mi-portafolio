@@ -35,10 +35,6 @@ body * {
     font-weight: 700;
     color: #373A3C;
 }
-.estilosSeccionSobreMi{
-    margin-top: 25px;
-    margin-bottom:60px;
-}
 .estilosParrafos {
     padding: 3% 20% 0 20%;
 }
@@ -49,7 +45,10 @@ h2 {
     color: #373A3C;
     margin-bottom: 25px;
 }
-.estilosExperiencia {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.boldt2 {
+    font-weight: 600;
+    color: #373A3C;
+}
+.tamanioTextoLogo {
+    font-size: 14px;
 }
