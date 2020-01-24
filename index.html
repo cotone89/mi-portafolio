@@ -49,7 +49,7 @@
                 </nav>
 
                 <section class="estilosFotoPrincipal">
-                    <img src="assets/img/mockup-para-diseños.jpg" class="img-fluid" alt="foto principal">
+                    <img src="assets/img/fotoPrincipal.png" class="img-fluid" alt="foto principal">
                 </section>
             </header>
 
@@ -73,14 +73,16 @@
                 <h2>Mi Experiencia</h2>
                 <div class="row pt-3">
                     <div class="col-md-6">
-                        <img src="assets/img/caja.jpg" class="img-fluid " alt="logo caja"  data-toggle="tooltip" data-trigger="hover" data-placement="right" data-content="Caja Los Andes es una Caja de Compensación de Asignación Familiar o por su abreviatura CCAF, fundada por la Cámara Chilena de la Construcción, agrupación del gremio de la construcción privada en Chile.">
+                        <img src="assets/img/caja.jpg" class="img-fluid " alt="logo caja" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-content="Caja Los Andes es una Caja de Compensación de Asignación Familiar o por su abreviatura CCAF, fundada por la Cámara Chilena de la Construcción, agrupación del gremio de la construcción privada en Chile.">
                         <p class=" boldt2">Consultor IT (2017 - 2019)</p>
-                        <p class="tamanioTextoLogo mb-5">Backend J2EE</p>
+                        <p class="tamanioTextoLogo">Backend J2EE</p>
+                        <button type="button" class="btn mb-5 mt-3 estilosBoton" data-toggle="modal" data-target="#modalCaja">Proyectos Realizados</button>
                     </div>
                     <div class="col-md-6">
                         <img src="assets/img/everis2.jpg" class="img-fluid pt-2" alt="logo everis" data-toggle="tooltip" data-trigger="hover" data-placement="left" data-content="everis chile s.a. everis an NTT DATA Company es una consultora multinacional que ofrece soluciones de negocio, estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas, y outsourcing.">
                         <p class="estilosParrafos boldt2">Consultor IT (2013 - 2017)</p>
-                        <p class="tamanioTextoLogo mb-4">Backend J2EE</p>
+                        <p class="tamanioTextoLogo">Backend J2EE</p>
+                        <button type="button" class="btn mb-4 mt-3 estilosBoton"  data-toggle="modal" data-target="#modalEveris">Proyectos Realizados</button>
                     </div>
 
                 </div>
@@ -115,7 +117,7 @@
                                             <div class="card-body">
                                                 <p class="card-text"><strong>Cuppon</strong> se desarrolla a partir de una versión móvil utilizando elementos de Bootstrap.</p>
                                             </div>
-                                        </div>                                    
+                                        </div>
                                     </div>
                                     <div class="col-sm-4 p-4">
                                         <div class="card">
@@ -123,7 +125,7 @@
                                             <div class="card-body">
                                                 <p class="card-text">Con <strong>Iguanas</strong> reforcé conceptos de HTML y CSS, pero ésta vez organizando en secciones.</p>
                                             </div>
-                                        </div>                                    
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -238,12 +240,89 @@
             </section>
 
             <footer class="estilosFooter text-white">
-                
-                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x text-white"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-3x text-white"></i></a>
+
+                <a href="https://github.com/mtamayol/" target="_blank"><i class="fab fa-github-square fa-3x text-white"></i></a>
+                <a href="https://www.instagram.com/cotone30/" target="_blank"><i class="fab fa-instagram fa-3x text-white"></i></a>
                 <a href="https://cl.linkedin.com/in/mar%C3%ADa-jos%C3%A9-tamayo-leiva-28066265" target="_blank"><i class="fab fa-linkedin fa-3x text-white"></i></a>
                 <p><span class="estilosLogoPeque">MJ</span> 2020. Todos los derechos reservados.</p>
             </footer>
+
+            <!-- Modal Caja los Andes-->
+            <div class="modal fade" id="modalCaja" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header colorHeaderModal">
+                            <h5 class="modal-title text-white" id="exampleModalLongTitle">Proyectos realizados</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-left">
+                            <p><strong>PANEL DE RESÚMEN DE KRI PARA CONTRALOR</strong></p>
+                            <p>Desarrollador y analista JAVA, HTML, icefaces, bootstrap, CSS, JQuery, tomcat y packages pl/sql para la creación de un panel visualizable por el contralor de Caja los Andes que resume todos los monitoreos de las áreas de Riesgo Tecnológico, Riesgo Operacional, Riesgo de crédito, Riesgo Financiero y Fraude.</p>
+
+                            <p class="mt-3"><strong>PANEL DE KCI</strong></p>
+                            <p>Desarrollador y analista JAVA, HTML, icefaces, bootstrap, CSS, JQuery, tomcat y packages pl/sql para la creación de un panel de monitoreos KCI para el producto SIL de Caja los Andes (licencias médicas).</p>
+
+                            <p class="mt-3"><strong>SISTEMA DE GESTIÓN DE ALERTAS</strong></p>
+                            <p>Desarrollador y analista JAVA, HTML, icefaces, bootstrap, CSS, JQuery, tomcat y packages pl/sql para la creación de un panel de gestión de alertas generadas en tiempo real que se resuelven mediante un workflow cuyos participantes son los auditores de la Contraloría de Caja los Andes.</p>
+
+                            <p class="mt-3"><strong>DESARROLLO DE KRI</strong></p>
+                            <p>Desarrollador y analista JAVA, HTML, icefaces, bootstrap, CSS, JQuery, tomcat y packages pl/sql para la creación de monitoreos KRI solicitados por las áreas de Riesgo Operacional, Riesgo de Crédito, Riesgo Financiero, Fraude y Riesgo Tecnológico de la Contraloría de Caja los Andes.</p>
+
+                            <p class="mt-3"><strong>MANTENIMIENTO Y EVOLUTIVOS DE KRI Y SISTEMA DE SUCURSALES</strong></p>
+                            <p>Desarrollador y analista JAVA, HTML, icefaces, bootstrap, CSS, JQuery, tomcat y packages pl/sql para el mantenimiento y evolutivos de los sistemas de Contraloría de Caja los andes ya sean de monitoreos KRI, paneles de gestión y administración, así como también el sistema de auditoría de Sucursales.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn estilosBoton" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Everis-->
+            <div class="modal fade" id="modalEveris" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header colorHeaderModal">
+                            <h5 class="modal-title text-white" id="exampleModalLongTitle">Proyectos realizados</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-left">
+
+                            <p><strong >PROYECTO SUCURSAL VIRTUAL DE NEXTEL</strong></p>
+                            <p>Desarrollador JAVA, ADF y WebCenter Portal para mantenimiento y evolutivos del sitio privado de Nextel.</p>
+
+                            <p class="mt-3"><strong>PROYECTO PORTAL PÚBLICO DE BANCO BICE</strong></p>
+                            <p>Desarrollador JAVA, JSP, HTML y WebCenter Sites para la creación del sitio público del Banco BICE.</p>
+
+                            <p class="mt-3"><strong>PROYECTO MULTIDISPOSITIVOS ENTEL</strong></p>
+                            <p>Desarrollador y Analista JAVA, JSP, HTML, CSS, JQuery, Weblogic y servicios OSB para la creación de nuevos módulos de los sitios privados de Entel.</p>
+
+                            <p class="mt-3"><strong>SOPORTE ONLINE ENTEL</strong></p>
+                            <p>Desarrollador y Analista JAVA, JSP, HTML, CSS, JQuery, Weblogic y servicios OSB para implementar soluciones a incidencias de nivel 3 sobre los sitios públicos y privados de Entel.</p>
+
+                            <p class="mt-3"><strong>PROYECTO FALABELLA FIF</strong></p>
+                            <p>Desarrollador y Analista JAVA, HTML, CSS, JQuery y WebCenter Sites para la creación de 5 sitios administrables por 4 países incluyendo la creación de contenidos, instalación y capacitaciones.</p>
+
+                            <p class="mt-3"><strong>PROYECTO AMPLIACIÓN NUMÉRICA ENTEL</strong></p>
+                            <p>Desarrollador y Analista JAVA, JSP, HTML, CSS, JQuery, Weblogic y servicios OSB para iniciar la portabilidad numérica en los sitios públicos y privados de Entel.</p>
+
+                            <p class="mt-3"><strong>EVOLUTIVOS ENTEL</strong></p>
+                            <p>Desarrollador y Analista JAVA, JSP, HTML, CSS, JQuery, Weblogic y servicios OSB para el análisis e implementación de evolutivos para los sitios públicos y privados de Entel.</p>
+
+                            <p class="mt-3"><strong>CÉLULA ÁGIL WEB MOBILE ENTEL</strong></p>
+                            <p>Líder técnico JAVA, JSP, HTML, CSS, JQuery, Weblogic y servicios OSB para el análisis e implementación de historias de usuario para el sitio privado Web Mobile de Entel en un formato ágil</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn estilosBoton" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
 
